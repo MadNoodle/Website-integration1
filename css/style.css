@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: 'Proxima Nova Light', sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background: #64c3e7;
+  color: #ffffff;
+  background-repeat: repeat;
+  background-scale: cover;
+}
+
+.inner-header {
+  height: 650px;
+  background: url('../img/header-bg.png');
+}
+
+.container {
+  width: 960px;
+}
+
+.nav {
+  height: 105px;
+  width: 960px;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  width: 105px;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 15px 10px 0px 0px rgba(39, 177, 230, 1);
+  -moz-box-shadow: 15px 10px 0px 0px rgba(39, 177, 230, 1);
+  box-shadow: 15px 10px 0px 0px rgba(39, 177, 230, 1);
+}
+
+.navbar-icon {
+  float: right;
+}
+
+.claim {
+  width: 960px;
+  font-family: 'BlackJackRegular';
+  font-weight: normal;
+  font-size: 70px;
+  padding: 55px 0px 20px;
+  text-align: right;
+}
+
+.baseline {
+  width: 960px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.baseline .italic-bold {
+  font-family: 'proxima_boldit';
+}
+
+.btn-container {
+  width: 960px;
+  text-align: right;
+}
+
+.btn-custom {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 5px;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.btn-custom i {
+  padding: 10px;
+}
+
+.inner-about {
+  background: url('../img/about-bg.png') no-repeat center center;
+  background-size: cover;
+  height: 650px;
+}
+
+.paragraph {
+  margin-top: 100px;
+  max-width: 550px;
+  margin-left: 0;
+  padding: 0;
+}
+
+.inner-about h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.inner-about p {
+  font-family: 'proxima_reg', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.inner-about .quote p {
+  font-family: 'proxima_regit', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.btn-custom2 {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #14af8f;
+  border: 2px solid #14af8f;
+  background: transparent;
+  border-radius: 5px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.btn-custom2 i {
+  padding: 10px;
+}
+
+.inner-content {
+  background: url('../img/content-bg.png') no-repeat center center;
+  background-size: cover;
+  height: 650px;
+}
+
+.inner-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.inner-content p {
+  font-family: 'proxima_regit', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.inner-content .quote p {
+  font-family: 'proxima_reg', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.btn-custom3 {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #ea4c89;
+  border: 2px solid #ea4c89;
+  background: transparent;
+  border-radius: 5px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.btn-custom3 i {
+  padding: 10px;
+}
+
+
+.inner-contact {
+  background: url('../img/contact-bg.png') no-repeat center center;
+  background-size: cover;
+  height: 320px;
+  color:#fff;
+}
+
+.inner-contact h2 {
+  font-size: 40px;
+  margin:100px auto 0;
+  text-align:center;
+}
+
+.inner-contact p {
+  font-family: 'proxima_regit', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.inner-contact .quote p {
+  font-family: 'proxima_reg', sans-serif;
+  margin-bottom:20px;
+  padding:0;
+}
+
+.btn-custom4 {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 5px;
+  margin: 40px auto;
+  text-align: right;
+}
+
+.btn-custom4 i {
+  padding: 10px;
+}
+
+.inner-newsletter {
+  color:#545454;
+  background: #f4f4f4;
+  background-size: cover;
+  height: 650px;
+  margin:0 auto;
+}
+.inner-newsletter i{
+  font-size:20px;
+  margin:10px;
+
+
+}
+.circle {
+  margin-top:240px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom:65px;
+  padding:0;
+  border: 2px solid #545454;
+  height: 40px;
+  -moz-border-radius:40px;
+  -webkit-border-radius: 40px;
+  width: 40px;
+
+
+}
+.social{
+
+  justify-content: center;
+
+}
+.form-group{
+  margin:0px auto;
+}
+
+.news-input{
+  color:#545454;
+  font-family: 'proxima_boldit', sans-serif;
+}
+.form-control{
+  color:#d3d3d3;
+  font-family: 'proxima_boldit', sans-serif;
+}
+label {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  text-align: right;
+  padding-top:8px;
+}​
+footer{
+
+  height: 100px;
+}
+.sent h6{
+
+  font-family: 'proxima_regit', sans-serif;
+  font-size:12px;
+  margin: 44px auto;
+}
